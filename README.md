@@ -1,16 +1,21 @@
 ## Installation
 
-Create Virtual Environment
+#### Create Virtual Environment
 ```bash
 python -m venv .venv
 ```
 
-To install the necessary dependencies, you can use the following command:
+#### To install the necessary dependencies, you can use the following command:
 ```bash
 pip install -r requirements.txt
 ```
 
-Run using jupyter lab
+#### Activate the virutal environment
+```bash
+source .venv/bin/activate
+```
+
+#### Run using jupyter lab
 ```bash
 jupyter lab
 ```
